@@ -117,3 +117,33 @@ Inputkan display filter: ftp-data.command contains bukanapaapa.txt
 <br>Terlihat passwordnya adalah “d1b1langbukanapaapajugagapercaya” dan isi dari Wanted.pdf adalah
 
 <img src="images/10_5.png" width="400">
+
+## 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+
+Inputkan capture filter: src port 80
+
+<img src="images/11_1.png" width="400">
+
+## 12.	Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+Inputkan capture filter: port 21
+
+<img src="images/12_1.png" width="400">
+
+## 13.	Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+Inputkan capture filter: dst port 443
+
+<img src="images/13_1.png" width="400">
+
+## 14.	Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+
+Inputkan capture filter: dst host kemenag.go.id
+
+<img src="images/14_1.png" width="400">
+
+## 15.	Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+Inputkan capture filter: src host 192.168.43.129
+
+<img src="images/15_1.png" width="400">
